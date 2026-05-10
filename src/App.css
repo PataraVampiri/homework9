@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    background: url('https://i.pinimg.com/736x/33/77/d2/3377d295db70ccb6e1645180d858ec0d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header ul li{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.pinimg.com/736x/19/66/df/1966df0f02c11a96026d6705e8dd88bf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile-card {
+    width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+
+    background: url('https://i.pinimg.com/736x/28/47/cb/2847cb13ca5a887bab1aff537e1137b3.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.profile-image {
+    width: 600px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-content {
+    flex: 1;
+}
+
+.profile-content h1{
+    margin-bottom: 10px;
+}
+
+.about {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.info p {
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+
+
+
+
+.projects {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.pinimg.com/736x/19/66/df/1966df0f02c11a96026d6705e8dd88bf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects .project-card {
+    width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 30px 0;
+
+    background: url('https://i.pinimg.com/736x/28/47/cb/2847cb13ca5a887bab1aff537e1137b3.jpg');
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+
+.hobbies-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.hobbies-container{
+    width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+
+    background: url('https://i.pinimg.com/736x/28/47/cb/2847cb13ca5a887bab1aff537e1137b3.jpg');
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.hobbies-container h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hobby-card{
+    border: 2px solid rgba(255,255,255,0.4);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+.hobby-card:hover{
+    transform: scale(1.03);
+    background-color: rgba(255,255,255,0.1);
+}
+
+.hobby-card h3{
+    font-size: 28px;
+}
+
+.hobby-card a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.hobby-card a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Hobby Details */
+
+.hobby-details{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.details-card{
+    width: 700px;
+    padding: 50px;
+    border-radius: 20px;
+
+    background: url('https://i.pinimg.com/736x/28/47/cb/2847cb13ca5a887bab1aff537e1137b3.jpg');
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+}
+
+.details-card h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.details-card p{
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.details-card a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.details-card a:hover{
+    background-color: white;
+    color: black;
+}
+
+.hobby-details .details-card a{
+    display: inline-block;
+}
+
+
+.hobbies-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    background: url('https://i.pinimg.com/736x/19/66/df/1966df0f02c11a96026d6705e8dd88bf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hobby-details{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    background: url('https://i.pinimg.com/736x/19/66/df/1966df0f02c11a96026d6705e8dd88bf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.details-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 25px 0;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
